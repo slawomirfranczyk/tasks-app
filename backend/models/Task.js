@@ -9,7 +9,6 @@ const Task = new mongoose.Schema({
     },
     description: {
         type: String,
-        minlength: 1,
         set: replaceMultipleSpaces
     },
     dateEnd: {
