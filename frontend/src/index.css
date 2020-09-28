@@ -1,0 +1,13 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: url("./static/img/bg-image.jpg") center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.react-datepicker-wrapper, .react-datepicker__input-container {
+  width: 100% !important;
+}
